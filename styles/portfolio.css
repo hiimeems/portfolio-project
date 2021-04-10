@@ -6,6 +6,7 @@
 
 body {
   font-family: var(--default-font-family);
+  background: rgb(49, 48, 48);
 }
 
 h1,
@@ -27,6 +28,7 @@ h3 {
 
 p {
   font-size: 16px;
+  color: var(--primary-color);
 }
 
 .hero p {
@@ -41,6 +43,10 @@ p {
   background-size: 50%;
   text-align: center;
   padding: 160px 80px;
+}
+
+.btn {
+    color: var(--primary-color);
 }
 
 .btn-branding {
@@ -61,7 +67,7 @@ p {
 .subject-header {
   font-size: 45px;
   font-weight: bold;
-  color: black;
+  color: var(--primary-color);
 }
 
 @media (max-width: 900px) {
