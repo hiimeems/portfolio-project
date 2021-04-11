@@ -1,17 +1,12 @@
 :root {
   --primary-color: #ffffff;
-  --secondary-color: #2398ff;
+  --button-color: #2398ff;
   --default-font-family: "Roboto", sans-serif;
 }
 
 body {
   font-family: var(--default-font-family);
   background: rgb(49, 48, 48);
-}
-
-h1,
-h3 {
-  text-align: center;
 }
 
 h1 {
@@ -31,6 +26,10 @@ p {
   color: var(--primary-color);
 }
 
+.btn-branding:hover {
+  color: #78ff09;
+}
+
 .hero p {
   font-size: 18px;
   font-weight: normal;
@@ -46,18 +45,15 @@ p {
 }
 
 .btn {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .btn-branding {
-  background: var(--secondary-color);
+  background: var(--button-color);
   color: white;
-  border: 1px solid var(--secondary-color);
-  border-radius: 50px;
-}
-
-.btn-branding-outline {
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--button-color);
+  border-radius: 25px;
+  padding: 10px 15px;
 }
 
 .project-description {
@@ -70,17 +66,35 @@ p {
   color: var(--primary-color);
 }
 
+.about-me-title {
+  color: #f65282;
+  font-weight: bold;
+}
+
+.about-section {
+  padding: 160px 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  color: #f65282;
+}
+
+.about-section p {
+  font-size: 16px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
   }
 
   .hero {
-  background-image: url(../images/nature.png);
-  background-size: cover;
-  text-align: center;
-  padding: 80px 20px;
-}
+    background-image: url(../images/nature.png);
+    background-size: cover;
+    text-align: center;
+    padding: 80px 20px;
+  }
 
   .project-description {
     padding: 0;
@@ -88,6 +102,16 @@ p {
   }
 
   .subject-header {
-      font-size: 33px;
+    font-size: 33px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding-top: 80px;
+  }
+
+  .about-section img {
+    margin-top: 50px;
+    background-position: center;
   }
 }
