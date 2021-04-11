@@ -76,10 +76,6 @@ p {
   padding: 100px 80px;
 }
 
-.content-container h1 {
-  color: var(--secondary-color);
-}
-
 .content-container h2 {
   font-size: 18px;
   color: var(--secondary-color);
