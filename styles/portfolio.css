@@ -1,5 +1,6 @@
 :root {
   --primary-color: #ffffff;
+  --secondary-color: #f65282;
   --button-color: #2398ff;
   --default-font-family: "Roboto", sans-serif;
 }
@@ -24,10 +25,6 @@ h3 {
 p {
   font-size: 16px;
   color: var(--primary-color);
-}
-
-.btn-branding:hover {
-  color: #78ff09;
 }
 
 .hero p {
@@ -56,6 +53,10 @@ p {
   padding: 10px 15px;
 }
 
+.btn-branding:hover {
+  color: #78ff09;
+}
+
 .project-description {
   padding: 100px 60px;
 }
@@ -67,20 +68,29 @@ p {
 }
 
 .about-me-title {
-  color: #f65282;
+  color: var(--secondary-color);
   font-weight: bold;
 }
 
-.about-section {
-  padding: 160px 80px;
+.content-container {
+  padding: 100px 80px;
 }
 
-.about-section h2 {
+.content-container h1 {
+  color: var(--secondary-color);
+}
+
+.content-container h2 {
   font-size: 18px;
-  color: #f65282;
+  color: var(--secondary-color);
 }
 
-.about-section p {
+.content-container h3:hover,
+.subject-header:hover {
+  color: var(--secondary-color);
+}
+
+.content-container p {
   font-size: 16px;
 }
 
@@ -105,12 +115,13 @@ p {
     font-size: 33px;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding-top: 80px;
+    margin-bottom: 10px;
   }
 
-  .about-section img {
+  .content-container img {
     margin-top: 50px;
     background-position: center;
   }
