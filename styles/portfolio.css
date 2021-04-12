@@ -62,11 +62,8 @@ footer .contact-box {
   border: 1px solid var(--primary-color);
   padding: 20px 80px;
   border-radius: 8px;
+  margin-top: 200px;
 }
-
-/*footer .contact-box p {
-  margin: 0;
-}*/
 
 footer .email-link {
   font-size: 38px;
