@@ -109,7 +109,7 @@ a {
   background-image: url(../images/nature.png);
   background-size: 50%;
   text-align: center;
-  padding: 160px 80px;
+  padding: 112px 80px;
 }
 
 .btn {
@@ -144,7 +144,7 @@ a {
 }
 
 .content-container {
-  padding: 100px 80px;
+  padding: 58px 80px;
 }
 
 .content-container h2 {
@@ -196,6 +196,7 @@ a {
   .logo-small {
     max-height: 13px;
     margin-top: 25px;
+    margin-left: -65px;
   }
 
   nav a {
